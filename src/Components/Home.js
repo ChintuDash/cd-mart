@@ -217,7 +217,7 @@ function Home(){
            <div className='container-fluid d-flex scroll-1'>
            
            <div class="card" >
-            <img src={`${process.env.PUBLIC_URL}images/slide3/img-1.jpg`} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-1.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -227,7 +227,7 @@ function Home(){
             
 
             <div class="card" >
-            <img src={`${process.env.PUBLIC_URL}images/slide3/img-2.jpg`} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-2.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
