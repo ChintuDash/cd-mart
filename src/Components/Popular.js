@@ -46,28 +46,28 @@ function Popular(){
                         </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img7.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img7.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img3.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img3.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img4.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img4.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img5.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img5.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img6.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img6.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img1.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img1.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img8.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img8.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                             </div>
 
@@ -96,28 +96,28 @@ function Popular(){
                         </div>
                             <div className='carousel-inner'>
                                 <div className="carousel-item active" data-bs-interval="10000">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img1.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img1.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img3.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img3.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img4.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img4.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img5.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img5.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img6.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img6.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img7.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img7.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img8.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={process.env.PUBLIC_URL+"/images/slide1/img8.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                             </div>
 

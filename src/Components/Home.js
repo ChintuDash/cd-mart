@@ -54,7 +54,7 @@ function Home(){
         {/* section 1 */}
         <section className="container-fluid p-0 m-0 home-box">
             <div className="container-fluid p-0 m-0 mt-5 position-relative ">            
-                <img src={process.env.PUBLIC_URL+"images/slide1/img11.jpg"} className='img-fluid banner'/>
+                <img src={`${process.env.PUBLIC_URL}/images/slide1/img11.jpg`} className='img-fluid banner'/>
                <h1 >"Discover Endless Shopping: Exclusive Deals, Trendy Fashion, Electronics & More at Your Fingertips with Our E-Commerce App!"</h1>
                 <marquee id="home-box-mar"><h2 ref={textRef}>Welcome Our CD-Mart E-Commerce Platform</h2></marquee>
               
@@ -76,28 +76,28 @@ function Home(){
                         <div id="firstslide" className='carousel slide' data-bs-ride="carousel">
                             <div className='carousel-inner'>
                                 <div className='carousel-item active'>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img1.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img1.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img2.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img3.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img3.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img4.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img4.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img5.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img5.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img6.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img6.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img7.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img7.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className='carousel-item '>
-                                    <img src={process.env.PUBLIC_URL+"images/slide1/img8.jpg"} className='img-fluid d-block w-100'/>
+                                    <img src={`${process.env.PUBLIC_URL}/images/slide1/img8.jpg`} className='img-fluid d-block w-100'/>
                                 </div>
                             </div>
 
@@ -144,7 +144,7 @@ function Home(){
                     </div>
 
                     <div className='col-lg-7 col-md-6 col-sm-12'>
-                    <NavLink to="/Product-details" ><img src={process.env.PUBLIC_URL+"images/slide2/img-1.jpg"} className='rounded img-fluid d-block w-100'/></NavLink>
+                    <NavLink to="/Product-details" ><img src={`${process.env.PUBLIC_URL}/images/slide2/img-1.jpg`} className='rounded img-fluid d-block w-100'/></NavLink>
                     </div>                    
                 </div>
             </div>
@@ -162,9 +162,9 @@ function Home(){
 
                     <div className="col-lg-7 col-md-6 col-sm-12 img-box-1">      
                         <div className="img-3-box ">                    
-                            <img src={process.env.PUBLIC_URL+"images/girl/img-6.jpg"} className='d-inline h-100  three-img-box-1' onMouseEnter={Img_box_1} onMouseOut={Img_m_leave}/>
-                            <img src={process.env.PUBLIC_URL+"images/boy/img-5.jpg"} className='d-inline h-100  three-img-box-2' />
-                            <img src={process.env.PUBLIC_URL+"images/girl/img-3.jpg"} className='d-inline h-100  three-img-box-3' onMouseEnter={Img_box_3} onMouseOut={Img_m_leave}/>
+                            <img src={`${process.env.PUBLIC_URL}/images/girl/img-6.jpg`} className='d-inline h-100  three-img-box-1' onMouseEnter={Img_box_1} onMouseOut={Img_m_leave}/>
+                            <img src={`${process.env.PUBLIC_URL}/images/boy/img-5.jpg`} className='d-inline h-100  three-img-box-2' />
+                            <img src={`${process.env.PUBLIC_URL}/images/girl/img-3.jpg`} className='d-inline h-100  three-img-box-3' onMouseEnter={Img_box_3} onMouseOut={Img_m_leave}/>
                         </div>
                     </div>                    
                 </div>
@@ -179,7 +179,7 @@ function Home(){
         <div className="container py-3 section-4">
                <div className="row">
                     <div className="col-lg-6 col-md-7 col-sm-12 mb-lg-0 mb-4">                        
-                    <NavLink to="/Product-details" > <img src={process.env.PUBLIC_URL+"images/slide3/img-1.jpg"} className='rounded img-fluid'/></NavLink>
+                    <NavLink to="/Product-details" > <img src={`${process.env.PUBLIC_URL}/images/slide3/img-1.jpg`} className='rounded img-fluid'/></NavLink>
                         
                     </div>
                     <div className="col-lg-6 col-md-5 col-sm-12 mt-sm-4 ">
@@ -217,7 +217,7 @@ function Home(){
            <div className='container-fluid d-flex scroll-1'>
            
            <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-1.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}images/slide3/img-1.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -227,7 +227,7 @@ function Home(){
             
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-2.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}images/slide3/img-2.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -236,7 +236,7 @@ function Home(){
             </div>
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-3.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-3.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -245,7 +245,7 @@ function Home(){
             </div>
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-4.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-4.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -254,7 +254,7 @@ function Home(){
             </div>
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-5.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-5.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -263,7 +263,7 @@ function Home(){
             </div>
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-6.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-6.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -272,7 +272,7 @@ function Home(){
             </div>
 
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-7.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-7.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -282,7 +282,7 @@ function Home(){
 
             
             <div class="card" >
-            <img src={process.env.PUBLIC_URL+"images/slide3/img-3.jpg"} className='card-img-top rounded img-fluid'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide3/img-3.jpg`} className='card-img-top rounded img-fluid'/>
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
@@ -302,16 +302,16 @@ function Home(){
             <div className="container-fluid py-lg-5 py-md-3 pt-md-5 scroll-2">              
                                     
                      <div className='card a'> 
-                        <img src={process.env.PUBLIC_URL+"images/slide2/img-7.jpg"} className='card-img-top rounded img-fluid d-block h-75'/>
+                        <img src={`${process.env.PUBLIC_URL}/images/slide2/img-7.jpg`} className='card-img-top rounded img-fluid d-block h-75'/>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                      </div>
                 
                      <div className='card a'>
-                        <img src={process.env.PUBLIC_URL+"images/slide2/img-4.jpg"} className='card-img-top rounded img-fluid d-block h-75'/>
+                        <img src={`${process.env.PUBLIC_URL}/images/slide2/img-4.jpg`} className='card-img-top rounded img-fluid d-block h-75'/>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>
                     <div className='card a'>
-                        <img src={process.env.PUBLIC_URL+"images/slide2/img-5.jpg"} className=' card-img-top rounded img-fluid d-block h-75'/>
+                        <img src={`${process.env.PUBLIC_URL}/images/slide2/img-5.jpg`} className=' card-img-top rounded img-fluid d-block h-75'/>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                     </div>                            
                  
@@ -339,21 +339,21 @@ function Home(){
 
         <div class="row">
             <div class="col-lg-4 section-7-col">
-            <img src={process.env.PUBLIC_URL+"images/slide5/img-2.jpg"} className='rounded img-fluid d-block h-100'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide5/img-2.jpg`} className='rounded img-fluid d-block h-100'/>
                 <div class="layer">
                     <h3>BESTSELLER</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>                    
                 </div>
             </div>
             <div class="col-lg-4 section-7-col">
-            <img src={process.env.PUBLIC_URL+"images/slide5/img-4.jpg"} className='rounded img-fluid d-block h-100'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide5/img-4.jpg`} className='rounded img-fluid d-block h-100'/>
                 <div class="layer">
                     <h3>BESTSELLER</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
             </div>
             <div class="col-lg-4 section-7-col">
-            <img src={process.env.PUBLIC_URL+"images/slide5/img-5.webp"} className='rounded img-fluid d-block h-100'/>
+            <img src={`${process.env.PUBLIC_URL}/images/slide5/img-5.webp`} className='rounded img-fluid d-block h-100'/>
                 <div class="layer">
                     <h3>BESTSELLER</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
