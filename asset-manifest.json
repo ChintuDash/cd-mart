@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cd-mart/static/css/main.d72cc935.css",
+    "main.js": "/cd-mart/static/js/main.95ef1a4f.js",
+    "static/js/453.128aece0.chunk.js": "/cd-mart/static/js/453.128aece0.chunk.js",
+    "index.html": "/cd-mart/index.html",
+    "main.d72cc935.css.map": "/cd-mart/static/css/main.d72cc935.css.map",
+    "main.95ef1a4f.js.map": "/cd-mart/static/js/main.95ef1a4f.js.map",
+    "453.128aece0.chunk.js.map": "/cd-mart/static/js/453.128aece0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d72cc935.css",
+    "static/js/main.95ef1a4f.js"
+  ]
+}
