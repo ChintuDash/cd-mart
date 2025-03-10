@@ -1,0 +1,34 @@
+.form-box{
+    display:flex; 
+    align-items:center;
+    justify-content: center;  
+    align-items:center;
+    margin:11rem 0;
+
+}
+.form-box form{
+    width:50%;
+    background-color:pink;
+    padding:2rem;
+    border-radius:20px;
+    
+}
+
+@media screen and (min-width:375px) and (max-width:475px){
+    .form-box form{
+        width:70%;      
+        
+    }
+}
+
+@media screen and (max-width:780px){
+    .form-box form{
+        width:90%;       
+    }
+}
+
+@media screen and (max-width:374px){
+    .form-box form{
+        width:95%;              
+    }
+}

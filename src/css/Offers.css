@@ -1,0 +1,80 @@
+.offer-box{
+    padding-top:5rem;
+    
+}
+.offer-box h1{
+    text-align:center;
+    color:white;
+    text-shadow:0 0 3px blue;
+    letter-spacing: 8px;
+}
+#offer-mar span{
+    margin-right:50px;
+    font-size:2rem;
+    font-weight:bold;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+    color:transparent;
+    letter-spacing:5px;    
+}
+.offer .card{
+    height:20rem;
+    margin-bottom:2rem;
+}
+.offer .card:hover{
+    box-shadow:0 0 5px red;
+}
+.offer .card .card-footer h5{
+    text-align:center;    
+}
+.offer .card .card-footer h5 sub{
+    text-decoration:line-through;
+    color:rgb(226, 126, 126);
+}
+.offer .card .card-footer h4{
+    text-align:center;  
+    background-color:yellow;
+    border-radius:20px;  
+    font-family: serif;
+}
+.offer .card .card-footer h4:hover{
+    background-color:rgb(184, 255, 43);
+    color:red;
+    
+}
+
+
+@media screen and (max-width:780px){
+    .offer .card{
+        height:25rem;
+        margin-bottom:2rem;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:475px){
+    .offer .card{
+        height:27rem;
+        margin-bottom:2rem;
+    }
+    .offer-box h1{
+        font-size:1.5rem;
+        background-color:red;
+        letter-spacing:3px; 
+        border-radius:10px;
+    }
+}
+
+@media screen and (max-width:374px){
+    #offer-mar span{
+        font-size:1.5rem;
+        -webkit-text-stroke-width: 1px;
+    }
+    .offer-box h1{
+        font-size:1.5rem;
+        text-shadow:0 0 2px blue;
+        background-color:red;
+        letter-spacing:2px; 
+        border-radius:10px;
+    }
+
+}

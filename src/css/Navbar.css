@@ -1,0 +1,113 @@
+.navbar{    
+    position:fixed;
+    box-shadow:0 4px 6px 0 rgb(0,0,0,0.09);
+    background-color:white;
+    z-index: 1200;
+    width:100%;
+    transition:all .15s ease-in-out 0s;
+    top:0;
+    
+}
+.navbar .nav-link{
+    font-size:1.3rem;    
+}
+a{    
+    font-weight:bold;
+    transition:0.3s;
+}
+a:link{  
+    color:black;  
+    text-decoration:none;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:red;
+}
+.input-group{
+    height:50%;        
+}
+.form-1 .btn{
+    height:100%;
+    width:10vw;
+    font-weight:bold;
+}
+/* .hide-btn2{
+    height:50%;
+    width:10vw;
+    font-weight:bold;
+} */
+.hide-btn{
+    display:none;
+}
+.navbar-brand{
+    font-family: serif  ;
+    font-weight:bold;
+    color:green;     
+    border-radius:20px;
+    font-size:1.6rem;
+}
+
+
+@media screen and (max-width:780px){
+    .collapse{
+        background-color:gray;
+        text-align:center;               
+    }
+    a{
+        color:white;
+    }
+    .input-group{                   
+       padding:20px;
+    }
+    .hide-btn2{
+        display:none;
+    }
+    .hide-btn{
+        display:block;
+        font-weight:bold;
+        width:7rem;
+        font-size:20px;
+    }
+    a:visited{  
+        color:white;         
+    }
+    a:link{  
+        color:white;        
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:475px){
+    .hide-btn2{
+        display:none;
+    }
+    .hide-btn{
+        display:block;
+        width:7rem;
+        font-weight:bold;
+    }
+    .navbar-toggler-icon{
+        height:20px;
+        width:20px;
+    }
+}
+
+@media screen and (max-width:374px){
+   .navbar{
+    width:100vw;
+    position:fixed;
+   }
+    .navbar-toggler-icon{
+        height:20px;
+        width:20px;
+    }
+    .hide-btn2{
+        display:none;
+    }
+    .hide-btn{
+        display:block;
+        width:6rem;
+        font-size:15px;
+    }
+}

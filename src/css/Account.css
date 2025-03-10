@@ -1,0 +1,10 @@
+.account-box{
+    padding:15rem 0;
+}
+.account-box h1{
+    text-align:center;    
+}
+.account-box p{    
+    color:red;
+    padding-top:2rem;
+}

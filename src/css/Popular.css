@@ -1,0 +1,128 @@
+.popular-text{
+    padding-top:5rem;
+}
+.popular-text h1{
+    text-align:center;
+    color:blue;
+    font-family: calibri serif;
+    font-weight:bold;
+    word-spacing:2rem;
+    letter-spacing:6px;
+    background-color:orange;    
+}
+.popular .card{
+    height:30rem;
+    cursor:pointer;
+    margin-bottom:3rem;
+}
+.popular .row .card .card-body{
+    height:25rem;
+}
+
+.popular .card-footer{
+    text-align:center;
+    background-color:yellowgreen;
+    box-sizing: border-box;
+    color:orangered;
+    font-family: serif;
+    font-weight:bold;
+}
+
+.popular .card:hover .card-footer{
+    background-color:lawngreen;
+}
+.popular .card:hover{
+    box-shadow:0 0 5px purple;
+}
+.popular-slide-box .row{    
+    background-color:#a82c48;
+}
+.popular-slide-box .row{
+    padding-bottom:2.5rem;
+}
+.popular-slide-box .row img{
+    height:20rem;   
+}
+
+#popularslide .carousel-indicators{   
+    bottom:-2.8125rem;   
+}
+#popularslide .carousel-indicators button{
+    height:14px;
+    width:14px;
+    border-radius:50%;
+    opacity:0.3;
+ }
+ #popularslide .carousel-indicators button.active{
+    opacity: 1;
+ }
+ 
+#popularslide2 .carousel-indicators{   
+    bottom:-2.8125rem;   
+}
+#popularslide2 .carousel-indicators button{
+    height:14px;
+    width:14px;
+    border-radius:50%;
+    opacity:0.3;
+ }
+ #popularslide2 .carousel-indicators button.active{
+    opacity: 1;
+ }
+
+ .popular-marquee{
+    background-color:blue;
+    margin-top:15px;
+ }
+ .popular-marquee marquee span{
+    font-size:2rem;
+    margin-right:50px;
+    font-family: cursive;
+    color:white;
+    letter-spacing: 5px;
+    font-weight:bold;
+ }
+
+@media screen and (max-width:780px){
+    .popular-slide-box .row img{
+        height:25rem;   
+    }
+    #popularslide2{
+        display:none;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:475px){
+    .popular-text h1{
+        font-size:1.6rem;
+        letter-spacing: 0;
+        word-spacing:5px;
+    }
+    .popular-marquee marquee span{
+        font-size:1.5rem;       
+        letter-spacing: 3px;        
+     }
+}
+
+@media screen and (max-width:374px){
+    .popular-text h1{
+        font-size:1.4rem;
+        letter-spacing: 0;
+        word-spacing:5px;
+    }
+    .popular .card{
+        height:26rem;
+        cursor:pointer;
+        margin-bottom:3rem;
+    }
+    .popular .row .card .card-body{
+        height:23rem;
+    }
+    .popular-slide-box .row img{
+        height:20rem;   
+    }
+    .popular-marquee marquee span{
+        font-size:1.3rem;       
+        letter-spacing: 3px;        
+     }
+}
