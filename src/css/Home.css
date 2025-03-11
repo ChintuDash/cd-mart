@@ -206,7 +206,8 @@
 }
 
 .scroll-box::-webkit-scrollbar{
-    width:0.325rem;    
+    /* width:0.325rem;    */
+    height:0.525rem; 
   }
   .scroll-box::-webkit-scrollbar-track{
     background:white;

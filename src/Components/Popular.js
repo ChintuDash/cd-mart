@@ -95,7 +95,7 @@ function Popular(){
                             <button type="button" data-bs-target="#popularslide2" data-bs-slide-to="7" ></button>                            
                         </div>
                             <div className='carousel-inner'>
-                                <div className="carousel-item active" data-bs-interval="10000">
+                                <div className="carousel-item active">
                                     <img src={process.env.PUBLIC_URL+"/images/slide1/img2.jpg"} className='img-fluid d-block w-100'/>
                                 </div>
                                 <div className="carousel-item ">

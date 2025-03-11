@@ -1,0 +1,72 @@
+.product-text{
+    padding-top:5rem;
+}
+.product-text h1{
+    text-align:center;
+    color:blue;
+    font-family: calibri serif;
+    font-weight:bold;
+    word-spacing:2rem;
+    letter-spacing:6px;
+    background-color:rgb(255, 0, 179);    
+}
+.product .card{
+    height:30rem;
+    cursor:pointer;
+    margin-bottom:3rem;
+}
+.product .row .card .card-body{
+    height:25rem;
+}
+
+.product .card-footer{
+    text-align:center;
+    background-color:crimson;
+    box-sizing: border-box;
+    color:blue;
+    font-family: serif;
+    font-weight:bold;
+}
+
+.product .card:hover .card-footer{
+    background-color:lawngreen;
+}
+.product .card:hover{
+    box-shadow:0 0 5px purple;
+}
+
+
+
+
+@media screen and (max-width:780px){
+    .product-slide-box .row img{
+        height:25rem;   
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:475px){
+    .product-text h1{
+        font-size:1.6rem;
+        letter-spacing: 0;
+        word-spacing:5px;
+    }
+  
+}
+
+@media screen and (max-width:374px){
+    .product-text h1{
+        font-size:1.4rem;
+        letter-spacing: 0;
+        word-spacing:5px;
+    }
+    .product .card{
+        height:26rem;
+        cursor:pointer;
+        margin-bottom:3rem;
+    }
+    .product .row .card .card-body{
+        height:23rem;
+    }
+  
+}

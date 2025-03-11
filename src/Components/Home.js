@@ -6,20 +6,31 @@ import { NavLink } from 'react-router-dom';
 
 
 import { useEffect, useRef  } from "react";
-import gsap from "gsap";
-
-
+import gsap  from "gsap";
+import {useGSAP} from '@gsap/react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 function Home(){
     // gsap code
     const textRef = useRef(null);
 
     useEffect(() => {
       const colors = ["red", "blue", "green", "yellow", "purple"];   
-      const tl = gsap.timeline({ repeat: -1, yoyo: true });   
+      const a = gsap.timeline({ repeat: -1, yoyo: true });   
       colors.forEach((color) => {
-        tl.to(textRef.current, { color: color, duration: 1, ease: "power1.inOut" });
+        a.to(textRef.current, { color: color, duration: 1, ease: "power1.inOut" });
       });
     }, []);
+
+  useGSAP(()=>{
+    gsap.from("#hedtext",{       
+        rotation:360,       
+        duration:2,
+        delay:0.5,    
+        scale:0,    
+        yoyo:true        
+    })   
+  })
+  
 
     // carousel slide
      useEffect(() => {
@@ -55,7 +66,7 @@ function Home(){
         <section className="container-fluid p-0 m-0 home-box">
             <div className="container-fluid p-0 m-0 mt-5 position-relative ">            
                 <img src={`${process.env.PUBLIC_URL}/images/slide1/img11.jpg`} className='img-fluid banner'/>
-               <h1 >"Discover Endless Shopping: Exclusive Deals, Trendy Fashion, Electronics & More at Your Fingertips with Our E-Commerce App!"</h1>
+               <h1 id="hedtext">"Discover Endless Shopping: Exclusive Deals, Trendy Fashion, Electronics & More at Your Fingertips with Our E-Commerce App!"</h1>
                 <marquee id="home-box-mar"><h2 ref={textRef}>Welcome Our CD-Mart E-Commerce Platform</h2></marquee>
               
             </div>            
@@ -64,7 +75,7 @@ function Home(){
       
 
         <div className="container-fluid coll-1">
-            <h1>Our Collection – Discover Quality & Style at CD-Mart</h1>
+            <h1 className='abc'>Our Collection – Discover Quality & Style at CD-Mart</h1>
         </div>
 
         {/* section 2 */}
@@ -140,11 +151,11 @@ function Home(){
                         <h1>Best Collection</h1>
                         <p> At CD-Mart, we take pride in offering a diverse collection At CD-Mart, we take pride in offering a diverse collection 
                         At CD-Mart, we take pride in offering a diverse collection At CD-Mart, we take pride in offering a diverse collection </p>
-                        <NavLink to="/Product-details" > <button className="btn btn-outline-info mb-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>
+                        <NavLink to="/Product" > <button className="btn btn-outline-info mb-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>
                     </div>
 
                     <div className='col-lg-7 col-md-6 col-sm-12'>
-                    <NavLink to="/Product-details" ><img src={`${process.env.PUBLIC_URL}/images/slide2/img-1.jpg`} className='rounded img-fluid d-block w-100'/></NavLink>
+                    <NavLink to="/Product" ><img src={`${process.env.PUBLIC_URL}/images/slide2/img-1.jpg`} className='rounded img-fluid d-block w-100'/></NavLink>
                     </div>                    
                 </div>
             </div>
@@ -179,13 +190,13 @@ function Home(){
         <div className="container py-3 section-4">
                <div className="row">
                     <div className="col-lg-6 col-md-7 col-sm-12 mb-lg-0 mb-4">                        
-                    <NavLink to="/Product-details" > <img src={`${process.env.PUBLIC_URL}/images/slide3/img-1.jpg`} className='rounded img-fluid'/></NavLink>
+                    <NavLink to="/Product" > <img src={`${process.env.PUBLIC_URL}/images/slide3/img-1.jpg`} className='rounded img-fluid'/></NavLink>
                         
                     </div>
                     <div className="col-lg-6 col-md-5 col-sm-12 mt-sm-4 ">
                         <h2>Step into Style: The Best Shoe Collection Awaits!.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam a harum ducimus non doloremque aut libero dolor optio voluptas.</p>
-                        <NavLink to="/Product-details" > <button className="btn btn-outline-info mt-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>
+                        <NavLink to="/Product" > <button className="btn btn-outline-info mt-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>
                     </div>
                </div>
             </div>
@@ -200,7 +211,7 @@ function Home(){
                                 <h2>Baked fresh daily by bakers with passion.</h2>
                             </div>
                             <div class="col-lg-3 col-md-12 mt-lg-0 mt-4">
-                            <NavLink to="/Product-details" > <button class="btn btn-success main-btn">Learn more <HiChevronDoubleRight /></button></NavLink>
+                            <NavLink to="/Product" > <button class="btn btn-success main-btn">Learn more <HiChevronDoubleRight /></button></NavLink>
                             </div>
                         </div>
                     </div>
@@ -221,7 +232,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
             
@@ -231,7 +242,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -240,7 +251,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -249,7 +260,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -258,7 +269,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -267,7 +278,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -276,7 +287,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" > <a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
 
@@ -286,7 +297,7 @@ function Home(){
                 <div class="card-body">
                     <h5 class="card-title">Best Product</h5>
                     <p class="card-text">Premium quality, stylish, and reliable.</p>
-                    <NavLink to="/Product-details" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
+                    <NavLink to="/Product" ><a href="#" class="btn btn-outline-danger">Shop Now <MdAddShoppingCart /></a></NavLink>
                 </div>
             </div>
             

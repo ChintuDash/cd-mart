@@ -33,6 +33,9 @@
 .star li{
     color:gold;
 }
+.footer-box a{
+    color:white;
+}
 @media screen and (max-width:780px){
     .footer-box{
         text-align:center;

@@ -12,6 +12,7 @@ import Popular from './Components/Popular.js';
 import Account from './Components/Account.js';
 import Signin from './Components/Sign-in.js';
 import Product_details from './Components/Product-Details.js';
+import Product from './Components/Product.js';
 
 import Footwere from './Components/Category/Mens/Footwere.js';
 import Formal from './Components/Category/Mens/Formal.js';
@@ -39,6 +40,7 @@ function App(){
             <Route path="/Account" element={<Account/>}/>
             <Route path="/Signin" element={<Signin/>}/>
             <Route path="/Product-details" element={<Product_details/>}/>
+            <Route path="/Product" element={<Product/>}/>
           </Routes>
           <Footer/>
       </HashRouter>
