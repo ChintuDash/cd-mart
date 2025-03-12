@@ -3,7 +3,13 @@
     width:100%;
 }
 .details{
-    padding:8rem 0;    
+    padding:7rem 0;    
+}
+.details h1{
+    text-align:center;
+    margin:0 0 2rem 0;
+    font-size:3rem;
+    background-color:aqua;
 }
 
 .details-box{

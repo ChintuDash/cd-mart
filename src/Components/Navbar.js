@@ -3,12 +3,23 @@ import { MdOutlineSearch } from "react-icons/md";
 import {NavLink} from 'react-router-dom';
 import '../css/Navbar.css';
 
+import gsap  from "gsap";
+import { useEffect, useRef  } from "react";
+
 function Navbar(){
-        
+    const brandRef = useRef(null);
+
+    useEffect(() => {
+      const colors = ["red", "blue", "green", "yellow", "purple"];   
+      const a = gsap.timeline({ repeat: -1, yoyo: true });   
+      colors.forEach((color) => {
+        a.to(brandRef.current, { color: color, duration: 1.5, ease: "power1.inOut" });
+      });
+    }, []);
     return(
         <nav className="navbar navbar-expand-lg  ">
             <div className='container-fluid mx-lg-5 mx-md-4 mx-sm-0'>
-                <span className="navbar-brand" href="#">CD-Mart</span>
+                <span className="navbar-brand badge" href="#" ref={brandRef}>CD-Mart</span>
                 <NavLink to="/Signin" ><button className='btn btn-outline-danger hide-btn' type="button">Sign in</button></NavLink>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggle">
                     <span className="navbar-toggler-icon"></span>

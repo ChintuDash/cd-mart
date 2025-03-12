@@ -7,6 +7,7 @@ function Product_details(){
         <>
             <section className="container-fluid">
                 <div className="container details">
+                    <h1>Product Details</h1>
                    <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12  details-box">
                         <img src={process.env.PUBLIC_URL+"/images/girl/img-5.png"} className="card-body rounded" alt="not found"/>

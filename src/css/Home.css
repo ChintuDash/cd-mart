@@ -1,5 +1,6 @@
 ::-webkit-scrollbar{
-    width:0.625rem;    
+    width:0.625rem;   
+    height:0.425rem; 
   }
 ::-webkit-scrollbar-track{
     background:white;
@@ -97,15 +98,10 @@
 #mar-1 span{
     margin-left:50px;
 }
+
 /*  section -3-1*/
 
 
-/* .img-box{
-    height:100%;
-}
-.img-box-1{
-    height:30vh;
-} */
 .img-3-box{
     position:relative;
     height:100%;
@@ -128,8 +124,7 @@
     position:absolute;
     right:0;
 }
-.img-3-box img:hover{
-    width:60%;
+.img-3-box img:hover{    
     transition:0.5s;
 }
 

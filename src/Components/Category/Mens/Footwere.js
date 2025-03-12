@@ -12,7 +12,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-1.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                    </NavLink>
@@ -24,7 +24,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-2.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                    </div>
                    </NavLink>
@@ -35,7 +35,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-3.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                             <h4> Add to Cart</h4>
+                             <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>
@@ -46,7 +46,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-4.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>
@@ -60,7 +60,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-5.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>
@@ -72,7 +72,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-6.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                    </div>
                    </NavLink>
@@ -82,7 +82,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-7.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                             <h4> Add to Cart</h4>
+                             <h4>More Details</h4>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-1.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>
@@ -106,7 +106,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-5.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                    </NavLink>
@@ -118,7 +118,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-3.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                    </div>
                    </NavLink>
@@ -129,7 +129,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-7.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                             <h4> Add to Cart</h4>
+                             <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>
@@ -140,7 +140,7 @@ function Footwere(){
                         <img src={process.env.PUBLIC_URL+"/images/slide3/img-4.jpg"} className="card-body rounded" alt="not found"/>
                         <div className='card-footer'>
                             <h5>Rs 1500 <sub>M.R.P(3000)</sub></h5>
-                            <h4> Add to Cart</h4>
+                            <h4>More Details</h4>
                         </div>
                     </div>
                     </NavLink>

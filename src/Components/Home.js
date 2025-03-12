@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 import { useEffect, useRef  } from "react";
 import gsap  from "gsap";
 import {useGSAP} from '@gsap/react';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+
 function Home(){
     // gsap code
     const textRef = useRef(null);
@@ -124,7 +124,7 @@ function Home(){
                     </div>
 
                     <div className="col-lg-5 col-md-6 col-sm-12  slide-text">                      
-                            <h1>Our Collections</h1>
+                            <h1>Our New Collections</h1>
                             <p>At CD-Mart, we take pride in offering a diverse collection of high-quality products that cater to your everyday needs. From trendy fashion and stylish accessories to essential home goods and tech gadgets, our carefully curated selection ensures you get the best in quality, affordability, and style. Whether you're looking for the latest trends or timeless classics, CD-Mart is your go-to destination for a seamless shopping experience. Explore our collection today and find something perfect just for you!</p>
                      
                     </div>
@@ -147,8 +147,8 @@ function Home(){
         <section className="container-fluid bg-light">
             <div className="container py-5">
                 <div className="row ">                    
-                    <div className='col-lg-5 col-md-6 col-sm-12 '> 
-                        <h1>Best Collection</h1>
+                    <div className='col-lg-5 col-md-6 col-sm-12 justify-content-center  d-flex flex-column '> 
+                        <h1>New Collection</h1>
                         <p> At CD-Mart, we take pride in offering a diverse collection At CD-Mart, we take pride in offering a diverse collection 
                         At CD-Mart, we take pride in offering a diverse collection At CD-Mart, we take pride in offering a diverse collection </p>
                         <NavLink to="/Product" > <button className="btn btn-outline-info mb-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>
@@ -166,7 +166,7 @@ function Home(){
         <section className='container-fluid'>
             <div className='container py-5 '>
                 <div className="row">
-                    <div className="col-lg-5 col-md-6 col-sm-12">
+                    <div className="col-lg-5 col-md-6 col-sm-12 ">
                         <h1>Our Collections</h1>
                         <p>At CD-Mart, we take pride in offering a diverse collection of high-quality products that cater to your everyday needs. From trendy fashion and stylish accessories to essential home goods and tech gadgets, our carefully curated selection ensures you get the best in quality, affordability, and style. Whether you're looking for the latest trends or timeless classics, CD-Mart is your go-to destination for a seamless shopping experience. Explore our collection today and find something perfect just for you!</p>
                     </div>
@@ -193,7 +193,7 @@ function Home(){
                     <NavLink to="/Product" > <img src={`${process.env.PUBLIC_URL}/images/slide3/img-1.jpg`} className='rounded img-fluid'/></NavLink>
                         
                     </div>
-                    <div className="col-lg-6 col-md-5 col-sm-12 mt-sm-4 ">
+                    <div className="col-lg-6 col-md-5 col-sm-12 mt-sm-4 justify-content-center  d-flex flex-column ">
                         <h2>Step into Style: The Best Shoe Collection Awaits!.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci totam a harum ducimus non doloremque aut libero dolor optio voluptas.</p>
                         <NavLink to="/Product" > <button className="btn btn-outline-info mt-5 main-btn ">Learn More <HiChevronDoubleRight /></button></NavLink>

@@ -8,12 +8,16 @@
     top:0;
     
 }
-.navbar .nav-link{
+.navbar .nav-link{    
     font-size:1.3rem;    
 }
-a{    
-    font-weight:bold;
+#navbartoggle a{    
+    font-weight:lighter;
+    font-family:serif;
     transition:0.3s;
+}
+a{
+    font-weight:bold;
 }
 a:link{  
     color:black;  
@@ -42,10 +46,12 @@ a:hover{
     display:none;
 }
 .navbar-brand{
-    font-family: serif  ;
+    font-family: serif, monospace  ;
     font-weight:bold;
-    color:green;     
+    color:rgb(255, 61, 255);     
+    box-shadow:0 0 3px black;
     border-radius:20px;
+    cursor:none;
     font-size:1.6rem;
 }
 
